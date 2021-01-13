@@ -7,7 +7,7 @@ from report import HTMLTestRunner
 # 获取当前py文件路径地址，并进行路径分割（分割成目录路径和文件名称）
 dirname,filename=os.path.split(os.path.abspath(sys.argv[0]))
 print(dirname,filename)
-case_path = ".\\case\\app\\"
+case_path = ".\\case\\web\\"
 result = dirname+"\\report\\"
 
 def Creatsuite():
